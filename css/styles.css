@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.jumbroton{
+  position: absolute;
+  background-image: url(../pic/PantaiBali.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.overlay{  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 38, 61, 0.82);
+}
+.icon{
+  width: 165px;
+  height: 165px;
+  margin: auto;
+  margin-top: 44px;
+  background: url(../pic/bali.png);
+}
+.opening{
+  margin: auto;
+  margin-top: 44px ;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+}
+.word1{
+  color: #FFFFFF;
+}
+.word2{
+  color: #FCB371;
+}
+.little{
+  margin: auto;
+  margin-top: 14px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+.little-word{
+  color: #FFFFFF;
+}
+.button{
+  position: relative;
+  display: flex; 
+  top: 521px;
+  justify-content: center;
+}
+.button-outline{
+  width: 156px;
+  height: 46px;
+  top: 481px;
+  border: 2px solid #FCB371;
+  border-radius: 6px;
+}
+.box-about{
+  margin: auto;
+  margin-top: 12px;
+  width: 50px;
+  height: 21px;
+}
+#about{
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FCB371;
+}
+.button-fullbutton{
+  width: 156px;
+  height: 46px;
+  background: #FCB371;
+  border-radius: 6px;
+  margin-left: 13px;
+}
+.box-reser{
+  margin: auto;
+  margin-top: 12px;
+  width: 61px;
+  height: 21px;
+}
+#reser{
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
